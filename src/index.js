@@ -1,9 +1,9 @@
 import React from 'react';
-import Profile from './Profile.tsx';
+import ScorePage from './ScorePage.tsx';
 import ReactDOM from 'react-dom';
 import './index.css';
 
 ReactDOM.render(
-  <Profile />,
+  <ScorePage />,
   document.getElementById('root')
 );
