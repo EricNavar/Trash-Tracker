@@ -5,14 +5,14 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles(theme => ({
   header: {
-    padding: '500px',
+    padding: '10px',
   },
   profile: {
     display: 'flex',
   },
 }));
 
-export default function MediaCard() {
+export default function ScorePage() {
   const classes = useStyles();
   
   return (
@@ -21,8 +21,8 @@ export default function MediaCard() {
         Score Page
       </Typography>
       <div className={classes.profile}>
-        <Profile />
-        <Profile />
+        <Profile name = 'Eric' score='2'/>
+        <Profile name = 'Dad' score='1'/>
       </div>
     </div>
   );
