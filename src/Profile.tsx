@@ -5,6 +5,7 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
+
 declare var require: any
 
 const useStyles = makeStyles({
@@ -25,7 +26,7 @@ export default function Profile(props : any) {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image={require ("./images/ProfilePic.jpg")}
+          image={require ("./images/Eric.jpg")}
           title="Contemplative Reptile"
         />
         <CardContent>
