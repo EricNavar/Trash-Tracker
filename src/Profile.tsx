@@ -13,7 +13,7 @@ const useStyles = makeStyles({
     margin: '25px',
   },
   media: {
-    height: 200,
+    height: 80,
     width: 180
   },
 });
@@ -21,19 +21,23 @@ const useStyles = makeStyles({
 export default function Profile(props : any) {
   const classes = useStyles();
 
+  var path1 = "./images/";
+  var name = props.name;
+  var path2 = ".jpg";
+  var fileName = path1.concat(name);
+  fileName = fileName.concat(path2);
+
   return (
     <Card className={classes.card}>
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image={require ("./images/Eric.jpg")}
-          title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
             {props.name}
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography variant="h5" color="textSecondary" component="p">
             {props.score}
           </Typography>
         </CardContent>

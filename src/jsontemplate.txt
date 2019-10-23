@@ -1,19 +1,18 @@
 [
 	{
 		"name": "Eric",
-		"score": 0
+		"score": #
 	},
 	{
 		"name": "Andres",
-		"score": 1
+		"score": #
 	},
 	{
 		"name": "Hector",
-		"score": 0
+		"score": #
 	},
 	{
 		"name": "Bishoy",
-		"score": 0
-
+		"score": #
 	}
 ]
