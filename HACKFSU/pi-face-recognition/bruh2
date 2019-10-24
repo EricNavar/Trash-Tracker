@@ -1,0 +1,5 @@
+#!/bin/sh
+
+sftp enavar@storm.cise.ufl.edu
+sleep 5
+
